@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="scripts.js"></script>
+
+    <!-- ACA MUSTRO EL TITULO DE LA PESTAÑA -->
+    <title>Donar</title>
+
+</head>
+
+<body>
+    <div class="donar_contenedor">
+
+        <!-- TITULO DEL CARRUSEL -->
+        <h2>Seleccione tipo de Donación</h2>
+
+        <form>  
+
+            <!-- <input id="nombre_padrino" class="donar_nombre" type="text" name="padrino" placeholder="Ingrese su nombre"/> -->
+            <input type="text" name="nombre_padrino" id="nombre_padrino" class="donar_nombre" placeholder="Ingrese su nombre:"> 
+
+            <!-- <form id="myForm"  name="myForm" class="donar_select" > -->
+            <div class="donar_select" name="donacion" id="donacion" title="select">
+                <input type="radio" name="valorDonacion" id="valorDonacion1" value="donacion1" checked="checked"/> $10. (ARS)
+                <p>Material escolard para la alfabetización</p>
+        
+                <input type="radio" name="valorDonacion" id="valorDonacion2" value="donacion2" /> $20. (ARS)
+                <p>Material escolar + Merienda</p>
+        
+                <input type="radio" name="valorDonacion" id="valorDonacion3" value="donacion3" /> $30. (ARS)
+                <p>Material escolar + Merienda + Acompañamiento Psicopedagógico + Materiales de necesidad</p>  
+            </div>
+
+
+            <!-- BOTON ENVIO DE FORMULARIO -->
+            <button type="button" class="boton_donar" onclick="donar()">
+                Donar
+            </button>
+
+
+            <!-- Botón de reseteo de formulario -->
+            <!-- <input type="reset" value="Delet" /> -->
+
+
+            <!-- TEXTO DE AGRADECIMIENTO -->
+            <p type="text" name="respuesta" id="respuesta" class="respuesta"> </p>
+
+
+        </form>
+    
+    </div>
+</body>
+</html>

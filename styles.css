@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: rgb(249, 153, 0);
+}
+
+h2 {
+    margin: 0 auto;
+    padding-bottom: 60px;
+    font-size: 22px;
+}
+
+p {
+    width: 150px;
+    text-align: justify;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.donar_contenedor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.donar_select {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.donar_nombre{
+    height: 30px;
+    background-color: rgb(232, 232, 232);
+}
+
+.respuesta {
+
+    color: white;
+}
+
+.boton_donar {
+    background-color: rgb(255, 96, 96);
+    width: 150px;
+    height: 52px;
+    color: white;
+    font-weight: bold;
+    border-color: rgb(249, 68, 68);
+}
+d {
+    width: 20px;
+}
+.corazon {
+    font-size: 15px;
+}
